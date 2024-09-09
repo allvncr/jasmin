@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dancing Script", "Playfair Display";
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff6f6;
+  color: #000;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Playfair Display";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: "Dancing Script";
+// }
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 56px;
+}
+h4 {
+  font-size: 42px;
+}
+h5 {
+  font-size: 32px;
+}
+h6 {
+  font-size: 24px;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}
