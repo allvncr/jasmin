@@ -41,6 +41,21 @@ onMounted(() => {
         duration: 0.5, // Apparition rapide
       },
       "-=0.5"
+    )
+    .to(".orb", {
+      width: "200vw", // On dépasse 100% pour bien remplir tout l'écran
+      height: "200vw", // Idem pour la hauteur
+      borderRadius: "50%", // Reste un cercle
+      duration: 0.75, // Durée de l'animation
+      ease: "linear",
+    })
+    .to(
+      ".loader",
+      {
+        display: "none",
+        zIndex: -1,
+      },
+      "-=0.5"
     );
 });
 </script>

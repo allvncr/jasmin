@@ -37,7 +37,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 16px;
-  color: $red;
+  color: #000;
 }
 
 ul {
@@ -47,6 +47,7 @@ ul {
 
   li {
     font-size: 24px;
+    font-weight: 600;
   }
 }
 
@@ -65,7 +66,7 @@ ul {
   .butterfly {
     width: 24px;
     margin-right: 4px;
-    fill: $red;
+    fill: #000;
   }
 }
 
