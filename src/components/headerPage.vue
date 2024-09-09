@@ -37,7 +37,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 16px;
-  color: #000;
+  color: $red;
 }
 
 ul {
@@ -59,8 +59,9 @@ ul {
   align-items: center;
 
   span {
-    font-size: 28px;
+    font-size: 32px;
     text-transform: uppercase;
+    color: #000;
   }
 
   .butterfly {

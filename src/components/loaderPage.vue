@@ -9,6 +9,7 @@
 
 <script setup>
 import { gsap } from "gsap";
+import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 import { onMounted } from "vue";
 
 onMounted(() => {
@@ -68,7 +69,7 @@ onMounted(() => {
   left: 0;
   right: 0;
   z-index: 99;
-  background-color: $pink;
+  background-color: $pink3;
   display: flex;
   align-items: flex-end;
 }
@@ -93,7 +94,7 @@ onMounted(() => {
 
 .orb-text {
   opacity: 0; /* Le texte commence invisible */
-  color: $pink;
+  color: $pink3;
   font-size: 42px;
   font-weight: 300;
 }
