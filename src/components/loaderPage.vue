@@ -18,7 +18,7 @@ onMounted(() => {
   // Animation du trait (barre de chargement)
   tl.to(".loading", {
     width: "100%",
-    duration: 3,
+    duration: 2,
     ease: "power4.inOut",
   })
 
@@ -29,10 +29,10 @@ onMounted(() => {
         width: "200px",
         height: "200px",
         padding: "40px",
-        duration: 1.5,
+        duration: 1.2,
         ease: "power4.inOut", // Effet de rebond
       },
-      "+=0.2"
+      "+=0"
     )
 
     .to(
